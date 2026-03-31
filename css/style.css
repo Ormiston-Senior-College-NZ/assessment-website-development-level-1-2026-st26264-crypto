@@ -1,0 +1,138 @@
+.image{
+    padding:5px;
+    display:block;
+    border: 5px solid rgb(245, 212, 168);
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.navbar{
+   display: flex;
+  justify-content: center;
+}
+
+nav ul {
+  margin-right: 0 px;
+  display: flex;
+  background-color: rgb(228, 159, 107);
+  color: rgb(255, 175, 88);
+  align-content: center;
+  text-decoration: none;
+}
+
+nav li a {
+  display: inline block;
+  margin-right: 600px; 
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  align-items: stretch;
+  margin-right: 90px;
+}
+
+nav ul li a:hover{
+  text-decoration: none;
+  background-color: rgb(88, 141, 221);
+}
+
+
+body{
+  background-color: rgb(238, 138, 84);
+  justify-content: center;
+}
+
+
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+footer {
+  margin-top: auto;
+}
+
+
+dt,dd{
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-style: bold;
+}
+
+h1{
+  text-align: center;
+}
+
+.txt{
+  text-align: center;
+   
+}
+
+.image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  /* Optional: Make it responsive */
+  max-width: 100%;
+  height: auto;
+}
+
+.actimages{
+  border: 7px solid rgb(32, 125, 218);
+  padding: 20px;
+  display: inline-block;
+  margin-left: 0; 
+  margin-right: 20px;
+  width: 20%;
+  height: 20%;
+  margin: 20px;
+  margin-bottom: 10%;
+}
+
+
+
+.index{
+ background-color: rgb(238, 138, 84);
+}
+
+.index .nindex{
+  list-style-type: none;
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+  width: 400px;
+  background-color: rgb(218, 154, 105);
+  color: rgb(192, 178, 30);
+}
+
+
+.activities {
+  background-color: rgb(143, 192, 205);
+}
+
+.activities  .nactivities {
+  list-style-type: none;
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+  width: 400px;
+  background-color: rgb(32, 125, 218);
+  color: rgb(23, 75, 159);
+}
+
+
+.join{
+    background-color: rgb(111, 188, 111);
+}
+
+.join .njoin{
+  list-style-type: none;
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+  width: 400px;
+  background-color: rgb(148, 218, 105);
+  color: rgb(140, 254, 59);
+}
